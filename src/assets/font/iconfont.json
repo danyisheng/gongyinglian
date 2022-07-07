@@ -1,0 +1,79 @@
+{
+  "id": "1650793",
+  "name": "supply",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon-",
+  "description": "供应链",
+  "glyphs": [
+    {
+      "icon_id": "5799990",
+      "name": "商品",
+      "font_class": "yunliankeji-",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "5807792",
+      "name": "指标对账",
+      "font_class": "duizhang",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1153608",
+      "name": "资质",
+      "font_class": "zizhi",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "3977831",
+      "name": "系统",
+      "font_class": "xitong",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "4237369",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "4251753",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "4656567",
+      "name": "采购",
+      "font_class": "caigou",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "5252501",
+      "name": "损坏",
+      "font_class": "sunhuai",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "6503439",
+      "name": "对账中心",
+      "font_class": "duizhangzhongxin",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "9922134",
+      "name": "联营供货商",
+      "font_class": "lianyinggonghuoshang",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+// 响应样式
+.common-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  .common-col {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    label {
+      min-width: 72px;
+      display: inline-block;
+      height: 28px;
+      line-height: 28px;
+      vertical-align: middle;
+      text-align: right;
+    }
+    .el-upload-list__item-status-label {
+      min-width: auto;
+      height: auto;
+      line-height: normal;
+      text-align: center;
+      top: -7px;
+    }
+    .image-box {
+      height: 210px;
+      width: 210px;
+      border: 1px solid #dcdcdc;
+      border-radius: 5px;
+      img {
+        width: 100%;
+        height: 100%;
+
+      }
+    }
+  }
+  .common-col-1 {
+    width: 12.5%;
+  }
+  .common-col-2 {
+    width: 14.28%;
+  }
+  .common-col-3 {
+    width: 16.66%;
+  }
+  .common-col-4 {
+    width: 20%;
+  }
+  .common-col-5 {
+    width: 25%;
+  }
+  .common-col-6 {
+    width: 33.333333%;
+  }
+  .common-col-7 {
+    width: 50%;
+    min-width: 300px;
+  }
+  .common-col-8 {
+    width: 100%;
+  }
+}
+
+
+.disFlex { //布局
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+// flex 布局
+.flex{
+	display:flex;
+}
+.flex-direction-row{ //横
+	display:flex;
+	flex-direction:row;
+}
+.flex-direction-column{ //竖
+	display:flex;
+	flex-direction:column;
+}
+.flex-wrap-nowrap{ //不换行
+	display:flex;
+	flex-direction:nowrap;
+}
+.flex-wrap-wrap{ //换行
+	display:flex;
+	flex-direction:wrap;
+}
+.justify-content-between{ //靠边分
+	display:flex;
+	justify-content:space-between;
+}
+.justify-content-around{ //等分
+	display:flex;
+	justify-content:space-around;
+}
+.justify-content-center{  //横居中
+	justify-content:center;
+}
+.align-items-center{  //竖居中
+	align-items:center;
+}
+.align-items-end{
+	align-items:flex-end;
+}
+.align-items-start{
+	align-items:flex-start;
+}

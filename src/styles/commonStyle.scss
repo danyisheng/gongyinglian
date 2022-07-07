@@ -1,0 +1,362 @@
+// 组件样式
+.btn-box {
+  display: inline-block;
+  margin: 1px 10px;
+  height: 26px;
+  label {
+    min-width: 72px;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: middle;
+    text-align: right;
+  }
+}
+
+//伸缩栏
+.row-box {
+  width: 100%;
+  .el-col {
+    height: 50px;
+  }
+}
+// 工具栏样式
+.toolbar-box {
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+// 展开工具栏
+.toolbar-expend-box {
+  background-color: #fff;
+  .toolbar-expand {
+    padding: 0px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 30px;
+  }
+  .expand-info{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding:  16px 10px;
+    background: rgb(255, 255, 255);
+    height: 180px;
+    .btn-box {
+      margin: 0px;
+      padding: 0;
+      label {
+        width: 90px;
+        text-align: right;
+      }
+    }
+    .expand-btn-col {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+    .expand-btn {
+      background: rgb(255, 255, 255);
+      padding-left: 30px;
+      height: 40px;
+      display: flex;
+      align-content: flex-start;
+      flex-wrap: nowrap;
+      .btn-box {
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .expand-info-one {
+    height: 100px;
+  }
+  .expand-info-two {
+    height: 140px;
+  }
+  .expand-info-three {
+    height: 180px;
+  }
+  .expand-info-fourth {
+    height: 220px;
+  }
+}
+
+
+// 表格样式
+.table-box {
+  //margin-top: 10px;
+  .el-table {
+    .el-table__header-wrapper {
+      .el-table__header {
+        thead {
+          tr {
+            th {
+              background:rgba(250,250,250,1);
+              opacity:1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.tabs-box {
+  //margin-top: 10px;
+  .el-tabs {
+    .el-tabs__header {
+      margin: 0;
+      .el-tabs__nav-wrap {
+        .el-tabs__nav-scroll {
+          .el-tabs__nav {
+            .el-tabs__active-bar {
+              width: 120px;
+            }
+            .el-tabs__item {
+              text-align: center;
+              width: 160px;
+              padding: 0px 20px;
+            }
+            .is-active {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// 分页
+.pages-box {
+  height: 56px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top: 1px solid #dcdcdc;
+  text-align: right;
+  width: 100%;
+  background-color: #fff;
+  .pageBox {
+    height: 100%;
+    .el-pagination {
+      height: 100%;
+      padding: 12px 40px;
+      box-sizing: border-box;
+      .el-select {
+        width: 100%;
+      }
+      .el-pagination__jump {
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
+// 弹框的分页样式
+.dialog-page-box {
+  height: 56px;
+  width: 100%;
+  text-align: right;
+  .pageBox {
+    height: 100%;
+    .el-pagination {
+      height: 100%;
+      padding: 0;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      box-sizing: border-box;
+      .el-select {
+        width: 100%;
+      }
+      .el-pagination__jump {
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
+
+// 表格套商品栏
+.goods-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .image-box {
+    height: 120px;
+    width: 120px;
+    border: 1px solid #dcdcdc;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .goods-content {
+    width: calc(100% - 130px);
+    padding: 5px;
+    box-sizing: border-box;
+  }
+}
+// 表格套时间
+.timer-box {
+  p {
+    margin: 10px 0px;
+  }
+}
+
+.table-btn-box {
+  margin: 7px 0px;
+  .el-button {
+
+  }
+  a {
+    color: #1890FF;
+  }
+}
+
+//地图组件
+.mapsBox {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  #container {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-size: 13px;
+  }
+  #pickerBox {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    #lnglatBox {
+      width: 40%;
+      label {
+        color: #000000;
+        font-weight: bold;
+      }
+    }
+    #pickerBoxInfo {
+      width: 50%;
+      #pickerInput {
+        width: 95%;
+        height: 26px;
+        padding: 0px 5px;
+        border-radius: 4px;
+        border: 1px solid #dcdee2;
+      }
+    }
+  }
+  #poiInfo {
+    background: #fff;
+  }
+  .amap_lib_placeSearch .poibox.highlight {
+    background-color: #CAE1FF;
+  }
+  .amap_lib_placeSearch .poi-more {
+    display: none!important;
+  }
+}
+
+
+//弹框表单提交
+.dialog-box {
+  .form-modal-box {
+    .el-form {
+      .el-form-item__content {
+        line-height: 28px;
+      }
+      .el-form-item__label {
+        height: 28px;
+        line-height: 28px;
+      }
+      .el-input {
+        width: 100%;
+      }
+      .el-select {
+        width: 100%;
+        .el-input__suffix {
+        }
+      }
+    }
+  }
+}
+// 弹框二
+.dialog-box-content {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #FCF9FC;
+  border: 1px solid rgba(0, 0, 0, 0.14901960784313725);
+  opacity: 1;
+  border-radius: 10px;
+
+  .common-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    .add-set-btn {
+      text-align: right;
+    }
+  }
+}
+
+//非弹框表单提交
+.form-box {
+  .content-base {
+    .content-base-box {
+      padding-left: 80px;
+      padding-top: 40px;
+      box-sizing: border-box;
+    }
+  }
+  .el-form-item {
+    .el-form-item__content {
+      line-height: 28px;
+    }
+  }
+}
+
+
+//类目
+.category-rule-box {
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  line-height: 40px;
+  background-color: #E2F6FF;
+  border: 1px solid #91D5FF;
+  border-radius: 2px;
+  padding: 0px 14px;
+  .el-breadcrumb {
+    height: 100%;
+    line-height: 40px;
+    .el-breadcrumb__inner {
+      color: #1890FF;
+    }
+  }
+  label {
+    height: 100% !important;
+    line-height: 40px !important;
+  }
+  .qxCategory {
+    height: 28px;
+    margin: 5px 20px;
+  }
+}
+
+//区域多选
+.check-area-box {
+  .el-cascader {
+    height: inherit !important;
+    .el-input {
+      height: inherit !important;
+    }
+  }
+}
+
+.tree-box {
+
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "cityCode": "110000",
+    "cityName": "北京市",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "120000",
+    "cityName": "天津市",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "130000",
+    "cityName": "河北省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "140000",
+    "cityName": "山西省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "150000",
+    "cityName": "内蒙古自治区",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "210000",
+    "cityName": "辽宁省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "220000",
+    "cityName": "吉林省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "230000",
+    "cityName": "黑龙江省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "310000",
+    "cityName": "上海市",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "320000",
+    "cityName": "江苏省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "330000",
+    "cityName": "浙江省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "340000",
+    "cityName": "安徽省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "350000",
+    "cityName": "福建省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "360000",
+    "cityName": "江西省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "370000",
+    "cityName": "山东省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "410000",
+    "cityName": "河南省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "420000",
+    "cityName": "湖北省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "430000",
+    "cityName": "湖南省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "440000",
+    "cityName": "广东省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "450000",
+    "cityName": "广西壮族自治区",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "460000",
+    "cityName": "海南省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "500000",
+    "cityName": "重庆市",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "510000",
+    "cityName": "四川省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "520000",
+    "cityName": "贵州省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "530000",
+    "cityName": "云南省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "540000",
+    "cityName": "西藏自治区",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "610000",
+    "cityName": "陕西省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "620000",
+    "cityName": "甘肃省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "630000",
+    "cityName": "青海省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "640000",
+    "cityName": "宁夏回族自治区",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "650000",
+    "cityName": "新疆维吾尔自治区",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "710000",
+    "cityName": "台湾省",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "810000",
+    "cityName": "香港特别行政区",
+    "level": "1",
+    "parentCode": "0"
+  },
+  {
+    "cityCode": "820000",
+    "cityName": "澳门特别行政区",
+    "level": "1",
+    "parentCode": "0"
+  }
+]

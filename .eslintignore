@@ -1,0 +1,7 @@
+build/*.js
+src/assets
+config/*.js
+public
+dist
+src/
+plop-templates/
